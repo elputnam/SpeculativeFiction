@@ -79,7 +79,7 @@ function speculate(){
   background(0, 0, 16);
   textWrap(WORD);
   fill(108, 100, 100, alp1); 
-  textSize(35);
+  textSize(30);
   //let cite = floor(random(definitions.quotes.length));
   text(definitions.quotes[i].text, width*.15, height*.3, width*.7, height*.8);
   i++;
