@@ -71,7 +71,7 @@ function genreBubbles(){
   fill(108, 100, 100, alp1); 
   for (let j = 0; j < genres.length; j++){
     textSize(random(20,60));
-    text(genres[j], random(width*.1, width*.8), random(height*.25, height*.8), 50, 200);
+    text(genres[j], random(width*.1, width*.8), random(height*.25, height*.8), 100, 300);
   }
 }
 
