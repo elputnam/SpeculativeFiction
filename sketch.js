@@ -29,7 +29,7 @@ function setup() {
   button1.position(width*.1, height*.15);
   button1.mousePressed(speculate);
   button2 = createButton('genres');
-  button2.position(width*.7, height*.15);
+  button2.position(width*.65, height*.15);
   button2.mousePressed(genreBubbles);
   button3 = createButton("i'm feeling lucky");
   button3.position(width*.4, height*.15);
