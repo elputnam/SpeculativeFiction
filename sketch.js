@@ -92,7 +92,7 @@ function lucky(){
   background(0, 0, 16);
   textWrap(WORD);
   fill(108, 100, 100); 
-  textSize(35);
+  textSize(30);
   let cite = floor(random(definitions.quotes.length));
   //text(definitions.quotes[cite].text, random(0, width*.7), random(0, height*.8), width*.7, height*.8);
   text(definitions.quotes[cite].text,width*.15, height*.3, width*.7, height*.8);
