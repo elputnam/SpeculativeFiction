@@ -42,7 +42,7 @@ function draw() {
   noFill();
   stroke(108, 100, 100);
   rect(width*.1, height*.25, width*.8, height*.6);
-  textSize(50);
+  textSize(45);
   text("ProfBot 1", width*.1, height*.1);
   //speculate();
   //genreBubbles();
