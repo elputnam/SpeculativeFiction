@@ -38,7 +38,6 @@ function setup() {
 }
 
 function draw() {
-  
   noFill();
   stroke(108, 100, 100);
   rect(width*.1, height*.25, width*.8, height*.6);
@@ -51,15 +50,15 @@ function draw() {
   text("Source: Oziewicz, Marek. 2017. “Speculative Fiction.” In Oxford Research Encyclopedia of Literature. Oxford University Press.", width*.1, height*.9, 1500, height*8)
   noFill();
   stroke(288, 100, 100, alp2);
-  rect(width*.86+random(10), height*.86+random(10), 200, 50) 
+  rect(width*.86+random(10), height*.88+random(10), 200, 50) 
   noStroke();
   fill(225, alp2);
-  text("fieldMode", width*.87+random(10), height*.9+random(10), 100, 150);
+  text("fieldMode", width*.87+random(10), height*.92+random(10), 100, 150);
   if (mouseX > width*.85 && mouseY > height*.85){
     alp2 = 100;
     field();
   } else{
-    alp2= random(5);
+    alp2=1;
   }
 
 }
@@ -99,7 +98,7 @@ function lucky(){
 }
 
 function field(){
-  background(random(20), 50);
+  background(random(20), 40);
   fill(108, 100, 100);
   //lucky();
   //genreBubbles();
