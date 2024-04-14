@@ -59,7 +59,7 @@ function draw() {
     alp2 = 100;
     field();
   } else{
-    alp2= 0;
+    alp2= random(5);
   }
 
 }
